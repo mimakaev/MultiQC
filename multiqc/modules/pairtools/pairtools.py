@@ -238,7 +238,7 @@ class MultiqcModule(BaseMultiqcModule):
             'cpswitch_counts_label': 'Number of Reads'
         }
 
-        cis_ bagrgraph.plot(pairs_rane_dict, key_dict, pconfig=config)
+        return bagrgraph.plot(pairs_rane_dict, key_dict, pconfig=config)
 
 
     def pairs_by_strand_orientation(self):
